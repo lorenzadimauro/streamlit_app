@@ -8,8 +8,6 @@ with open('model.pkl', 'rb') as file:
 
 # Funzione per fare previsioni sul dataset caricato
 def fare_previsioni(dataset):
-    # Aggiungi qui la logica per il preprocessing del dataset
-    # ...
 
     previsioni = modello.predict(dataset)
     return previsioni
